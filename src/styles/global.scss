@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Lato&family=Lobster&family=Lora:wght@400;500;600&family=Mulish:wght@300;400;500;600&family=Nunito+Sans:wght@300;400;600;700&family=Nunito:wght@200;300;400;500;600;700&family=Open+Sans&family=Roboto+Slab:wght@200;300;400;500;600;700&family=Work+Sans:wght@200;300;400;500;600&display=swap');
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+html, body, #app {
+    background-color: whitesmoke;
+}
+
+//These are added to tailwind
+// $bright-lilac: #cd84f1;
+// $light-purple: #c56cf0;
+// $light-slate-blue: #7d5fff;
+// $light-indigo: #7158e2;
+
+// $pretty-please: #ffcccc;
+// $young-salmon: #ffb8b8;
+
+// $light-red: #ff4d4d;
+// $red-orange: #ff3838;
+
+// $mandarin-sorbet: #ffaf40;
+// $radiant-yellow: #ff9f1a;
+
+// $unmellow-yellow: #fffa65;
+// $dorn-yellow: #fff200;
+
+// $wintergreen: #32ff7e;
+// $weird-green: #3ae374;
+
+// $electric-blue: #7efff5;
+// $hammam-blue: #67e6dc;
+// $neon-blue: #18dcff;
+// $spiro-disco-ball: #17c0eb;
+
+// $shadowed-steel: #4b4b4b;
+// $baltic-sea: #3d3d3d;
+
+$lato: 'Lato', sans-serif;
+$lobster: 'Lobster', cursive;
+$lora: 'Lora', serif;
+$mulish: 'Mulish', sans-serif;
+$nunito: 'Nunito', sans-serif;
+$nunito-sans: 'Nunito Sans', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$roboto: 'Roboto Slab', serif;
+$work-sans: 'Work Sans', sans-serif;
+$abyssinica: 'Abyssinica SIL', serif;
+
+.lato {
+    font-family: $lato;
+}
+
+.lobster {
+    font-family: $lobster;
+}
+
+.lora {
+    font-family: $lora;
+}
+
+.mulish {
+    font-family: $mulish;
+}
+
+.nunito {
+    font-family: $nunito;
+}
+
+.nunito-sans {
+    font-family: $nunito-sans;
+}
+
+.open-sans {
+    font-family: $open-sans;
+}
+
+.roboto {
+    font-family: $roboto;
+}
+
+.work-sans {
+    font-family: $work-sans;
+}
+
+.abyssinica {
+    font-family: $abyssinica;
+}
+
+.curvy-bg {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300' preserveAspectRatio='xMinYMin meet'><path d='M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z'></path></svg>")
+}
+
+
+//REMOVE UGLY ARROWS FROM input[type=number]
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.styled-scrollbars {
+    --scrollbar-foreground: rgb(239, 68, 68);
+    --scrollbar-background: whitesmoke;
+    /* Foreground, Background */
+    scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background);
+}
+.styled-scrollbars::-webkit-scrollbar {
+    width: 7px; /* Mostly for vertical scrollbars */
+    height: 10px; /* Mostly for horizontal scrollbars */
+}
+.styled-scrollbars::-webkit-scrollbar-thumb { /* Foreground */
+    background: var(--scrollbar-foreground);
+}
+.styled-scrollbars::-webkit-scrollbar-track { /* Background */
+    background: var(--scrollbar-background);
+}
+
+@keyframes morph-right {
+    0% {
+
+    }
+
+    50% {
+
+    }
+
+    100% {
+
+    }
+}
+
+
+@import "./tw-extensions.scss";
