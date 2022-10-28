@@ -2,41 +2,12 @@
 
 
 * {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 html, body, #app {
     background-color: whitesmoke;
 }
-
-//These are added to tailwind
-// $bright-lilac: #cd84f1;
-// $light-purple: #c56cf0;
-// $light-slate-blue: #7d5fff;
-// $light-indigo: #7158e2;
-
-// $pretty-please: #ffcccc;
-// $young-salmon: #ffb8b8;
-
-// $light-red: #ff4d4d;
-// $red-orange: #ff3838;
-
-// $mandarin-sorbet: #ffaf40;
-// $radiant-yellow: #ff9f1a;
-
-// $unmellow-yellow: #fffa65;
-// $dorn-yellow: #fff200;
-
-// $wintergreen: #32ff7e;
-// $weird-green: #3ae374;
-
-// $electric-blue: #7efff5;
-// $hammam-blue: #67e6dc;
-// $neon-blue: #18dcff;
-// $spiro-disco-ball: #17c0eb;
-
-// $shadowed-steel: #4b4b4b;
-// $baltic-sea: #3d3d3d;
 
 $lato: 'Lato', sans-serif;
 $lobster: 'Lobster', cursive;
@@ -123,20 +94,5 @@ input[type=number] {
 .styled-scrollbars::-webkit-scrollbar-track { /* Background */
     background: var(--scrollbar-background);
 }
-
-@keyframes morph-right {
-    0% {
-
-    }
-
-    50% {
-
-    }
-
-    100% {
-
-    }
-}
-
 
 @import "./tw-extensions.scss";
